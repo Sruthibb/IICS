@@ -1,4 +1,0 @@
-D:\Informatica\server\infa_shared\SrcFiles\ff_locations_japan.dat
-D:\Informatica\server\infa_shared\SrcFiles\ff_locations_others.dat
-D:\Informatica\server\infa_shared\SrcFiles\ff_locations_uk.dat
-D:\Informatica\server\infa_shared\SrcFiles\ff_locations_us.dat
