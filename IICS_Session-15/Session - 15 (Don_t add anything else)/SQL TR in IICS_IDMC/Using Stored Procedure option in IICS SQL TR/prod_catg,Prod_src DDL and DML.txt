@@ -1,0 +1,79 @@
+drop table prod_catg;
+CREATE TABLE prod_catg 
+(
+    CATEGORY_ID	number,
+    CATEGORY_NAME 	VARCHAR(512)
+);
+
+INSERT INTO prod_catg (CATEGORY_ID, CATEGORY_NAME ) VALUES ('1', 'Computers');
+INSERT INTO prod_catg (CATEGORY_ID, CATEGORY_NAME ) VALUES ('2', 'Mobile phones');
+INSERT INTO prod_catg (CATEGORY_ID, CATEGORY_NAME ) VALUES ('3', 'Tablets');
+INSERT INTO prod_catg (CATEGORY_ID, CATEGORY_NAME ) VALUES ('4', 'Storage');
+commit;
+
+
+select * from prod_catg;
+
+select *from prod_catg;
+
+
+drop table Prod_src;
+CREATE TABLE Prod_src 
+(
+    PRODUCT_ID	number,
+    PRODUCT_NAME	VARCHAR(512),
+    PRICE	number,
+    CATEGORY_ID  number
+);
+
+INSERT INTO Prod_src (PRODUCT_ID, PRODUCT_NAME, PRICE, CATEGORY_ID ) VALUES ('101', 'HP LAPTOP', '50000', '1');
+INSERT INTO Prod_src (PRODUCT_ID, PRODUCT_NAME, PRICE, CATEGORY_ID ) VALUES ('102', 'DELL LAPTOP', '70000', '1');
+INSERT INTO Prod_src (PRODUCT_ID, PRODUCT_NAME, PRICE, CATEGORY_ID ) VALUES ('103', 'MAC BOOK', '80000', '1');
+INSERT INTO Prod_src (PRODUCT_ID, PRODUCT_NAME, PRICE, CATEGORY_ID ) VALUES ('104', 'LEVENO LAPTOP', '90000', '1');
+INSERT INTO Prod_src (PRODUCT_ID, PRODUCT_NAME, PRICE, CATEGORY_ID ) VALUES ('105', 'CHROME BOOK', '20000', '1');
+INSERT INTO Prod_src (PRODUCT_ID, PRODUCT_NAME, PRICE, CATEGORY_ID ) VALUES ('106', 'Iphone', '200000', '2');
+INSERT INTO Prod_src (PRODUCT_ID, PRODUCT_NAME, PRICE, CATEGORY_ID ) VALUES ('107', 'Oneplus', '70000', '2');
+INSERT INTO Prod_src (PRODUCT_ID, PRODUCT_NAME, PRICE, CATEGORY_ID ) VALUES ('108', 'Redmi', '30000', '2');
+INSERT INTO Prod_src (PRODUCT_ID, PRODUCT_NAME, PRICE, CATEGORY_ID ) VALUES ('109', 'Vivo', '40000', '2');
+INSERT INTO Prod_src (PRODUCT_ID, PRODUCT_NAME, PRICE, CATEGORY_ID ) VALUES ('110', 'Oppo', '50000', '2');
+INSERT INTO Prod_src (PRODUCT_ID, PRODUCT_NAME, PRICE, CATEGORY_ID ) VALUES ('111', 'Ipad', '85000', '3');
+INSERT INTO Prod_src (PRODUCT_ID, PRODUCT_NAME, PRICE, CATEGORY_ID ) VALUES ('112', 'honopad', '40000', '3');
+INSERT INTO Prod_src (PRODUCT_ID, PRODUCT_NAME, PRICE, CATEGORY_ID ) VALUES ('113', 'Galaxy Tab', '60000', '3');
+INSERT INTO Prod_src (PRODUCT_ID, PRODUCT_NAME, PRICE, CATEGORY_ID ) VALUES ('114', 'Amazon fire', '70000', '3');
+INSERT INTO Prod_src (PRODUCT_ID, PRODUCT_NAME, PRICE, CATEGORY_ID ) VALUES ('115', 'WD Portable Drive', '50000', '4');
+INSERT INTO Prod_src (PRODUCT_ID, PRODUCT_NAME, PRICE, CATEGORY_ID ) VALUES ('116', 'Seagate Portable Drive', '40000', '4');
+INSERT INTO Prod_src (PRODUCT_ID, PRODUCT_NAME, PRICE, CATEGORY_ID ) VALUES ('117', 'SanDisk External drive', '30000', '4');
+INSERT INTO Prod_src (PRODUCT_ID, PRODUCT_NAME, PRICE, CATEGORY_ID ) VALUES ('118', 'Silicon Power External Drive', '20000', '4');
+commit;
+
+select * from Prod_src;
+
+
+
+--target table for connected stored Proc
+
+drop table products_tgt;
+create table products_tgt
+(
+CATEGORY_ID number,
+CATEGORY_NAME  varchar2(50),
+max_price    number,
+min_price   number,
+avg_price   number ,
+sum_price   number 
+);
+
+
+
+--target table for un-connected stored Proc 
+
+drop table products_tgt_un;
+create table products_tgt_un
+(
+CATEGORY_ID number,
+CATEGORY_NAME  varchar2(50),
+max_price    number
+);
+
+
+select * from products_tgt_un;

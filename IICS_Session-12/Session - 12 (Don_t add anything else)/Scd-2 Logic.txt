@@ -1,0 +1,60 @@
+1. IF Employee_ID Does not Exist in the target table
+        Insert a new record along with a sequnce number , Start_date (Date_Entered)
+   IF Employee_ID Exist in the target table
+        Update  Existing Target table for the End_date ( Start_Date-1)
+        Insert  a New record alsng a Sequence number , Start_date (Date_Entered) 
+
+      While updating 
+         ( If Empid has multiple records - Check only the records which has Null value
+           We cacn only update only those records identified by Surrogate key- End_Date is NULL
+         )
+
+
+-----------------------------------------------------------------------------
+
+IF THERE IS NO EMP_ID EXISITNG IN DIM THEN INSERT   - NEW_INSERT
+
+IF THE EMP EXIST IN DIM 
+   1. UPDATE THE ENDDATE    - EXISING_UPDATE 
+   2. INSERT                - EXISITING_INSERT
+   
+----------------------------------------------------------------------------------------
+
+
+   START_DATE = 20-11-2021
+   
+  END_DATE =  ADD_TO_DATE(START_DATE,'DD',-1)
+  END_DATE = 19-11-2021
+
+   
+   START_DATE = 01-01-2022
+   
+  END_DATE =  ADD_TO_DATE(START_DATE,'DD',+1)
+  END_DATE =  02-01-2022
+  
+  
+  
+     START_DATE = 20-11-2021
+   
+  END_DATE =  ADD_TO_DATE(START_DATE,'MM',-1)
+  END_DATE =  20-10-2021
+  
+  
+       START_DATE = 20-11-2021
+   
+  END_DATE =  ADD_TO_DATE(START_DATE,'MM',+1)
+  END_DATE =  20-12-2021
+  
+  
+  
+         START_DATE = 20-11-2021
+   
+  END_DATE =  ADD_TO_DATE(START_DATE,'YYYY',+1)
+  END_DATE =  20-11-2022
+  
+  
+    
+         START_DATE = 20-11-2021
+   
+  END_DATE =  ADD_TO_DATE(START_DATE,'YYYY',-1)
+  END_DATE =  20-11-2020

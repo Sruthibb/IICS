@@ -1,0 +1,88 @@
+
+source tr     - you can join two or more homogeneoussource  tables only 
+
+joiner tr       - you can join two or more heterogeneous sources and also homogeneous sources.
+
+
+Joins supported by oracle
+-------------------------
+inner join/equi join/ normal join / join
+non-equi join
+left outer join
+right outer join
+full outer join
+cross join 
+self join 
+-----------------------------------------------
+JOINER TR  - ACTIVE AND CONNECTED
+
+USAGE : TO JOIN TWO OR MORE HETEROGENEOUS SOURCES 
+ALSO WE CAN JOIN HOMOGENEOUS SOURCE TABLES.
+
+WHAT ARE THE TYPES OF JOINS IT WILL SUPPORT IN  JOINER TR IN INFORMATICA ?
+OR
+WHAT ARE THE TYPES OF JOINS IN INFORMATICA ?
+4 TYPES OF JOINES
+
+1. NORMAL JOIN        -- IF THE rows from the two tables matches a contion                  - INNER JOIN IN ORACLE.
+2. MASTER OUTER JOIN  - MATCHING ROWS FROM MASTER , ALL THE RECORDS FROM DETAIL table       - RIGHT OUTER JOIN IN ORACLE
+3. DETAIL OUTER JOIN   -- MATCHING RECORDS FROM DETAIL, ALL THE RECORDS FROM MASTER         - LEFT OUTER JOIN IN ORACLE 
+4. FULL OUTER JOIN   ---  ALL THE RECORDS FROM THE BOTH THE TABLES.                         - FULL OUTER JOIN IN ORACLE.
+                
+
+
+MASTER OUTER JOIN IN INFORMATICA= RIGHT OUTER JOIN IN ORACLE
+DETAIL OUTER JOIN IN INFORMATICA= LEFT OUTER JOIN IN ORACLE
+
+detail : CUSTOMERS
+master : ORDERS
+
+normal join :  matching records from master (ORDERS) and details table (CUSTOMERS)
+
+master outer join  : MATCHING ROWS FROM MASTER (ORDERS), ALL THE RECORDS FROM DETAIL(CUSTOMERS) table
+
+DETAIL OUTER JOIN   -- MATCHING RECORDS FROM DETAIL(CUSTOMERS), ALL THE RECORDS FROM                 								MASTER( ORDERS)
+
+full outer join  -  ALL THE RECORDS FROM THE BOTH THE TABLES  . MASTER (contacts) and DETAIL(CUSTOMERS) 
+
+
+
+detail : ORDERS    -- 10L
+master : customers   -1L
+
+
+normal join :  matching records from master ( customers )and details table (ORDERS  )
+
+master outer join  : MATCHING ROWS FROM MASTER (customers) , ALL THE RECORDS FROM DETAIL(ORDERS ) table
+
+DETAIL OUTER JOIN   -- MATCHING RECORDS FROM DETAIL( ORDERS  ), ALL THE RECORDS FROM 												MASTER( customers   )
+
+full outer join  -  ALL THE RECORDS FROM THE BOTH THE TABLES  . MASTER (ORDERS ) and DETAIL(contacts ) 
+
+CUSOTMER TABLE  -- 10L
+ORDERS_FF FILE   -- 10K  - MASTER 
+
+
+
+
+- JOINER WILL SUPPORT ONLY EQUALITY OPERATOR IN JOIN CONDITION
+- WE CAN GIVE MULTIPLE JOIN CONDITIONS.
+- JOINER IS HAVING SORTED INPUT OPTION
+- TO JOIN N SOURCES WE REQUIRED N-1 JOINER TRANSFORMATIONS ARE REQUIRED
+- TO IMPORVE THE PERFORMANCE OF JOINER TR ,TAKE THE SOURCE WHICH HAS  LESS NUMBERS OF RECORDS
+   AS MASTER SOURCE IN JOINER TRs IN THE MAPPING.
+- TO IMPORVE THE PERFORMANCE TRY TO JOIN IN THE SOURCE TRASNFORMAION ITSELF WHENVER POSSIBLE.
+- TWO TYPES OF CACHE  -  INDEX(CONDITON PORTS)  AND DATA CACHE (NON CONDITION COLUMNS)
+- IN INFORMATICA YOU CANNOT NON-EQUI JOIN 
+
+
+use the source with fewer( less number ) rows as the master source
+
+JOINER INDEX CACHE  -- it will store  the ports in the joining condition
+JOINER DATA CACHE    -- it will store the ports other than joining condition 
+
+
+
+customers table - 100000   -- detail
+orders FILE - 1000 -- master 
+

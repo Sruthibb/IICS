@@ -1,0 +1,201 @@
+
+Informatica  - DATA INTEGRATION COMPANY 
+-------------
+
+INFORMATICA POWERCENTER
+INFORMATICA IICS - IDMC
+INFORMATICA MDM
+INFORMATICA IDQ - CDQ
+INFORMATICA 360
+INFORMATICA ILM 
+
+
+
+INFORMATICA POWERCENTER - ETL TOOL 
+
+INSTALL A DATABASE ( ORACLE /SQL SERVER /TERADATA )
+INFORMATICA SERVER
+INFORMATICA CLIENT 
+
+----------------------------------------
+
+OR 
+
+INFORMATICA CLOUD - IICS / IDMC
+
+IICS - INFORMATICA INTELLIGENT CLOUD SERVICES 
+IDMC - INTELLIGENT DATA MANANGMENT CLOUD ( AI )
+
+
+
+
+ICS - INFORMATICA CLOUD SERVICES  - 2011
+
+IICS - INFORMATICA INTELLIGENT CLOUD SERVICES. -2015
+
+
+IDMC  - INTELLIGENT DATA MANANGMENT CLOUD ( AI ) - 2023
+
+
+
+
+
+
+
+
+
+
+INFORMATICA - IICS / IDMC
+
+WHAT IS THE FUTURE SCODE OF INFORMATICA  IMDC  - VER GOOD 
+
+INFORMATICA POWERCENTER + IDMC   - MORE OPENINGS - GOOD PACKAGES.
+
+IDMC EASY OR DIFFUCLUT?          - IF YOU KNOW POWERCENTER , IDMC IS VERY EASY.
+
+IDMC IS HAING CODING ?           - NON CODING .
+ 
+CERTIFICATIONS IN IDMC           - NO NEED TO DO ANY CERTIFICATION
+
+
+
+END TO END IICS/IDMC 
+
+
+INFORMATICA IICS/IDMC DEVELOPER TRAINING.
+
+
+
+
+IDMC CDI END TO END TRAINING
+IDMC CAI END TO END TRAINING
+60+ MAPPINGS WITH REALTIME DOCUMENTS 
+COMPLEX PROJECT EXAPLANTION AND IMPLEMENTION - CDI & CAI 
+INTERVIEW QESTIONS CDI  , CDI , PC 
+RESUME
+JOB ASSISTANCE .
+CONTROL M 
+SNOWFLAKE , SALESFORCE , AZZURE , GCP , AWS BASICS 
+
+
+45 DAYS COURSE - 70+ DAILY 2 HOURS
+
+MORNING  9:30 TO 11:30 AM
+EVENING  7:30 TO 9:30  PM
+
+MONDAY - SATRDAY 
+
+
+
+8105296858 
+
+
+INSTALLATION.
+------------
+IF YOU ALREADY INSTALLED ORACLE IN YOUR SYSTEM - DNT INSTALL ORACLE AGAIN.
+IICS/IDMC TRIAL ACCOUNT - 30 DAYS 
+INSTALL IICS/IDMC SECURE AGENT 
+
+
+SYSTEM REQUIREMENT 
+--------------------
+6GB/8GB 
+50 GB  / 100GB AVAILABLE SPACE.
+ANY PROCESSOR
+
+NO APPLE/MAC LAPTOPS 
+
+
+
+CREATE SOURCE AND TARGET SCHEMA IN ORACLE.
+
+
+
+
+IDMC /IICS 
+
+CDI - CLOUD DATA INTEGRATION
+-------------------------
+1ST MAPPING -FILTER TRANSMATION
+
+
+
+POWERCENTER 				IICS/IDMC
+---------------				---------------
+MAPPING					MAPPING				(you can run
+SESSION TASK(cannot run)		MAPPING CONFURATION TASK. (MCT) (you can run mct)
+WORFLOW					TASKFLOW
+
+
+
+
+
+oracle 
+iics secure agent .
+
+
+SQL server 
+
+
+
+paid full fee
+--------------
+whatsapp group
+daily material
+first 10 sessions video recordings.
+
+
+
+
+
+1.FIRST INSTALL ORACLE
+2.INSTALL SQL DEVELOPER
+3.CREATE source and target SCHEMA IN ORACLE.	
+4.Insert the Table ddl and dml in OT_SRC_DEV1 schema in oracle.
+5.You need to create a Informatica IICS trial account .
+6.You need to download secure agent and install secure agent.
+7.open informatica iics link in chrome incognito mode.
+8.Check the Runtime enviroment in Administrator - running 
+9.In Data integration - Create  Project.
+10.Create source and target oracle onnection from iics Administrator.
+11.CREARE A MAPPING
+12.CREATE A MAPPING TASK.
+
+
+
+
+CONNECTION IS REFUSED SHOWING  ERROR IN SOCKET TO HOST
+
+MAPPING CANVAS
+
+
+POWERCENTER
+
+CAN YOU RUN A MAPPING DIRECTLY IN POWERCENTER
+?
+
+NO
+
+
+MAPPING - SESSION - WORKFLOW.
+
+
+IICS MAPPING      = INFORMATICA MAPPING
+IICS MAPPING TASK = INFORMATICA SESSION AND WORKFLOW 
+
+
+next session is on monday.
+
+who ever paid 23k - we have added to the whatsap  group
+
+8105296858
+
+Please send the full fee as discussed asap.
+if you pay full fee - then only we will add you in the whatsapp group 
+                    - then only you will get website access
+					- then only you will get first 10 video records
+					- then only you will get material.
+					
+9:30 to 11:30am IST
+
+7:30 to 9:30om IST

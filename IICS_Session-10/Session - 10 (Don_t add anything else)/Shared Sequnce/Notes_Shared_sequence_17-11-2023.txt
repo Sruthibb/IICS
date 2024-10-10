@@ -1,0 +1,84 @@
+SHARED SEQUNCE - 
+
+use same sequnce generator TR in multiple mappings...
+
+
+source 							target
+----							-----
+Reserverd values =1000
+s_cust_details					tgt_cust_details
+2000						1.		1 - 2000           current value=2001 		
+							3.   5001 - 7000           current value=7001
+							5.  10001 - 12000           current value=12001
+
+
+s_product_stocks                product_stocks_seq
+2038	                    2.    2001- 4038           current value =5001
+							4.    7001- 9038		   current value =10001
+							
+
+
+source 							target
+----							-----
+Reserverd values =1000
+
+s_product_stocks                product_stocks_seq
+2038	                    1. 1     - 2038              current value = 3001
+							2. 3001  - 5038 			 current value = 6001
+							3. 6001  - 8038				 current value = 9001
+
+
+
+source 							target
+----							-----
+Reserverd values =1000
+
+s_product_stocks                product_stocks_seq
+1000	                    1. 1     - 1000             current value = 1001
+							2. 1001  - 2000				current value = 2001
+						 
+						 
+						 
+
+source 							target
+----							-----
+Reserverd values =1000
+
+s_product_stocks                product_stocks_seq
+3500	                    1. 1     - 3500            current value = 4001
+							2. 4001  - 7500				current value = 8001
+						 
+						 
+						 
+                
+
+source 							target
+----							-----
+Reserverd values =1000
+
+s_product_stocks                product_stocks_seq
+10	                         1. 1    -  10                  current value = 1001
+							 2. 1001 - 1010				     current value= 2001
+							 
+							 
+							 
+source 							target
+----							-----
+Reserverd values =1000
+
+s_product_stocks                product_stocks_seq
+200	                         1. 1    -  200                 current value = 1001
+							 2. 1001 -  1201 			    current value = 2001
+
+
+
+
+source 							target
+----							-----
+Reserverd values =2000
+
+s_product_stocks                product_stocks_seq
+10	                         1. 1    -  10                  current value = 2001
+							 2. 2001 -  2010				current value = 4001
+							 
+                

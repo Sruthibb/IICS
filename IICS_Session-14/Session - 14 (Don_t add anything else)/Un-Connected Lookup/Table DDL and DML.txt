@@ -1,0 +1,70 @@
+--source table 
+
+
+drop table src_insurance;
+CREATE TABLE src_insurance 
+(
+    Claim_Number	INT,
+    Insurance	VARCHAR(512),
+    Maruthi_id	INT,
+    Hynudai_id	INT,
+    Toyota_id	INT,
+    MG_id	INT,
+    KIA_id 	INT
+);
+
+INSERT INTO src_insurance (Claim_Number, Insurance, Maruthi_id, Hynudai_id, Toyota_id, MG_id, KIA_id ) VALUES (558800, 'Vehicle', 100, 5001, 6001, 7001, 8001);
+INSERT INTO src_insurance (Claim_Number, Insurance, Maruthi_id, Hynudai_id, Toyota_id, MG_id, KIA_id ) VALUES (558801, 'Vehicle', 101, 5002, 6002, 7002, 8002);
+INSERT INTO src_insurance (Claim_Number, Insurance, Maruthi_id, Hynudai_id, Toyota_id, MG_id, KIA_id ) VALUES (558802, 'Vehicle', 102, 5003, 6003, 7003, 8003);
+INSERT INTO src_insurance (Claim_Number, Insurance, Maruthi_id, Hynudai_id, Toyota_id, MG_id, KIA_id ) VALUES (558803, 'Vehicle', 103, 5004, 6004, 7004, 8004);
+commit;
+
+
+
+--lookup table
+drop table car_model;
+CREATE TABLE car_model 
+(
+    id	INT,
+    car_type 	VARCHAR(512)
+);
+
+INSERT INTO car_model (id, car_type ) VALUES (100, 'Baleno');
+INSERT INTO car_model (id, car_type ) VALUES (101, 'Brezza');
+INSERT INTO car_model (id, car_type ) VALUES (102, 'Dzire');
+INSERT INTO car_model (id, car_type ) VALUES (103, 'Swift');
+INSERT INTO car_model (id, car_type ) VALUES (5001, 'Exter');
+INSERT INTO car_model (id, car_type ) VALUES (5002, 'Verna');
+INSERT INTO car_model (id, car_type ) VALUES (5003, 'Aura');
+INSERT INTO car_model (id, car_type ) VALUES (5004, 'Venue');
+INSERT INTO car_model (id, car_type ) VALUES (6001, 'Fortuner');
+INSERT INTO car_model (id, car_type ) VALUES (6002, 'Innova');
+INSERT INTO car_model (id, car_type ) VALUES (6003, 'Glanza');
+INSERT INTO car_model (id, car_type ) VALUES (6004, 'Hycorss');
+INSERT INTO car_model (id, car_type ) VALUES (7001, 'Astor');
+INSERT INTO car_model (id, car_type ) VALUES (7002, 'Comet');
+INSERT INTO car_model (id, car_type ) VALUES (7003, 'Hector');
+INSERT INTO car_model (id, car_type ) VALUES (7004, 'Gloster');
+INSERT INTO car_model (id, car_type ) VALUES (8001, 'Seltos');
+INSERT INTO car_model (id, car_type ) VALUES (8002, 'Carens');
+INSERT INTO car_model (id, car_type ) VALUES (8003, 'Sonet');
+COMMIT;
+
+
+
+--target table
+DROP TABLE TGT_INS_MODEL;
+ CREATE TABLE TGT_INS_MODEL
+ (
+    Claim_Number	INT,
+    Insurance	VARCHAR(512),	
+    Maruthi_car_types VARCHAR(512),
+    Hynudai_car_types VARCHAR(512),
+    Toyota_car_types VARCHAR(512),
+    MG_car_types VARCHAR(512),
+    KIA_car_types  VARCHAR(512)
+);
+
+
+
+

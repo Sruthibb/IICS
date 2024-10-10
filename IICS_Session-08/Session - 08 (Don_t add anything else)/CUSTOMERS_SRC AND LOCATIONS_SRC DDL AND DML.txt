@@ -1,0 +1,121 @@
+
+  CREATE TABLE CUSTOMERS_SRC
+   (	
+    CUSTOMER_ID  NUMBER, 
+	NAME VARCHAR2(255), 
+	ADDRESS VARCHAR2(255), 
+	WEBSITE VARCHAR2(255), 
+	CREDIT_LIMIT NUMBER(8,2), 
+	LOCATION_ID NUMBER
+   );
+
+
+
+
+Insert into CUSTOMERS_src (CUSTOMER_ID,NAME,ADDRESS,WEBSITE,CREDIT_LIMIT,LOCATION_ID) values (1,'Raytheon','514 W Superior St, Kokomo, IN','http://www.raytheon.com',100,1);
+Insert into CUSTOMERS_src (CUSTOMER_ID,NAME,ADDRESS,WEBSITE,CREDIT_LIMIT,LOCATION_ID) values (2,'Plains GP Holdings','2515 Bloyd Ave, Indianapolis, IN','http://www.plainsallamerican.com',100,2);
+Insert into CUSTOMERS_src (CUSTOMER_ID,NAME,ADDRESS,WEBSITE,CREDIT_LIMIT,LOCATION_ID) values (3,'US Foods Holding','8768 N State Rd 37, Bloomington, IN','http://www.usfoods.com',100,3);
+Insert into CUSTOMERS_src (CUSTOMER_ID,NAME,ADDRESS,WEBSITE,CREDIT_LIMIT,LOCATION_ID) values (4,'AbbVie','6445 Bay Harbor Ln, Indianapolis, IN','http://www.abbvie.com',100,4);
+Insert into CUSTOMERS_src (CUSTOMER_ID,NAME,ADDRESS,WEBSITE,CREDIT_LIMIT,LOCATION_ID) values (5,'Centene','4019 W 3Rd St, Bloomington, IN','http://www.centene.com',100,5);
+Insert into CUSTOMERS_src (CUSTOMER_ID,NAME,ADDRESS,WEBSITE,CREDIT_LIMIT,LOCATION_ID) values (6,'Community Health Systems','1608 Portage Ave, South Bend, IN','http://www.chs.net',100,6);
+Insert into CUSTOMERS_src (CUSTOMER_ID,NAME,ADDRESS,WEBSITE,CREDIT_LIMIT,LOCATION_ID) values (7,'Alcoa','23943 Us Highway 33, Elkhart, IN','http://www.alcoa.com',100,7);
+Insert into CUSTOMERS_src (CUSTOMER_ID,NAME,ADDRESS,WEBSITE,CREDIT_LIMIT,LOCATION_ID) values (8,'International Paper','136 E Market St # 800, Indianapolis, IN','http://www.internationalpaper.com',100,8);
+Insert into CUSTOMERS_src (CUSTOMER_ID,NAME,ADDRESS,WEBSITE,CREDIT_LIMIT,LOCATION_ID) values (9,'Emerson Electric','1905 College St, South Bend, IN','http://www.emerson.com',100,9);
+Insert into CUSTOMERS_src (CUSTOMER_ID,NAME,ADDRESS,WEBSITE,CREDIT_LIMIT,LOCATION_ID) values (10,'Union Pacific','3512 Rockville Rd # 137C, Indianapolis, IN','http://www.up.com',200,10);
+Insert into CUSTOMERS_src (CUSTOMER_ID,NAME,ADDRESS,WEBSITE,CREDIT_LIMIT,LOCATION_ID) values (11,'Amgen','1303 E University St, Bloomington, IN','http://www.amgen.com',200,11);
+Insert into CUSTOMERS_src (CUSTOMER_ID,NAME,ADDRESS,WEBSITE,CREDIT_LIMIT,LOCATION_ID) values (12,'U.S. Bancorp','115 N Weinbach Ave, Evansville, IN','http://www.usbank.com',200,12);
+Insert into CUSTOMERS_src (CUSTOMER_ID,NAME,ADDRESS,WEBSITE,CREDIT_LIMIT,LOCATION_ID) values (13,'Staples','2067 Rollett Ln, Evansville, IN','http://www.staples.com',200,13);
+Insert into CUSTOMERS_src (CUSTOMER_ID,NAME,ADDRESS,WEBSITE,CREDIT_LIMIT,LOCATION_ID) values (14,'Danaher','1105 E Allendale Dr, Bloomington, IN','http://www.danaher.com',200,14);
+Insert into CUSTOMERS_src (CUSTOMER_ID,NAME,ADDRESS,WEBSITE,CREDIT_LIMIT,LOCATION_ID) values (15,'Whirlpool','18305 Van Dyke St, Detroit, MI','http://www.whirlpoolcorp.com',200,15);
+Insert into CUSTOMERS_src (CUSTOMER_ID,NAME,ADDRESS,WEBSITE,CREDIT_LIMIT,LOCATION_ID) values (16,'Aflac','Lucas Dr Bldg 348, Detroit, MI','http://www.aflac.com',200,16);
+Insert into CUSTOMERS_src (CUSTOMER_ID,NAME,ADDRESS,WEBSITE,CREDIT_LIMIT,LOCATION_ID) values (17,'AutoNation','1801 Monroe Ave Nw, Grand Rapids, MI','http://www.autonation.com',200,17);
+Insert into CUSTOMERS_src (CUSTOMER_ID,NAME,ADDRESS,WEBSITE,CREDIT_LIMIT,LOCATION_ID) values (18,'Progressive','4925 Kendrick St Se, Grand Rapids, MI','http://www.progressive.com',200,18);
+Insert into CUSTOMERS_src (CUSTOMER_ID,NAME,ADDRESS,WEBSITE,CREDIT_LIMIT,LOCATION_ID) values (19,'Abbott Laboratories','3310 Dixie Ct, Saginaw, MI','http://www.abbott.com',200,19);
+Insert into CUSTOMERS_src (CUSTOMER_ID,NAME,ADDRESS,WEBSITE,CREDIT_LIMIT,LOCATION_ID) values (20,'Dollar General','113 Washington Sq N, Lansing, MI','http://www.dollargeneral.com',200,20);
+Insert into CUSTOMERS_src (CUSTOMER_ID,NAME,ADDRESS,WEBSITE,CREDIT_LIMIT,LOCATION_ID) values (21,'Tenet Healthcare','2500 S Pennsylvania Ave, Lansing, MI','http://www.tenethealth.com',200,21);
+Insert into CUSTOMERS_src (CUSTOMER_ID,NAME,ADDRESS,WEBSITE,CREDIT_LIMIT,LOCATION_ID) values (22,'Eli Lilly','3213 S Cedar St, Lansing, MI','http://www.lilly.com',200,22);
+Insert into CUSTOMERS_src (CUSTOMER_ID,NAME,ADDRESS,WEBSITE,CREDIT_LIMIT,LOCATION_ID) values (23,'DTE Energy','8110 Jackson Rd, Ann Arbor, MI','http://www.dteenergy.com',200,23);
+Insert into CUSTOMERS_src (CUSTOMER_ID,NAME,ADDRESS,WEBSITE,CREDIT_LIMIT,LOCATION_ID) values (24,'Southwest Airlines','6654 W Lafayette St, Detroit, MI','http://www.southwest.com',200,24);
+Insert into CUSTOMERS_src (CUSTOMER_ID,NAME,ADDRESS,WEBSITE,CREDIT_LIMIT,LOCATION_ID) values (25,'Penske Automotive Group','27 Benton Rd, Saginaw, MI','http://www.penskeautomotive.com',200,25);
+Insert into CUSTOMERS_src (CUSTOMER_ID,NAME,ADDRESS,WEBSITE,CREDIT_LIMIT,LOCATION_ID) values (26,'ManpowerGroup','8201 Livernois Ave, Detroit, MI','http://www.manpowergroup.com',300,26);
+Insert into CUSTOMERS_src (CUSTOMER_ID,NAME,ADDRESS,WEBSITE,CREDIT_LIMIT,LOCATION_ID) values (27,'Assurant','101 N Falahee Rd, Jackson, MI','http://www.assurant.com',300,27);
+Insert into CUSTOMERS_src (CUSTOMER_ID,NAME,ADDRESS,WEBSITE,CREDIT_LIMIT,LOCATION_ID) values (28,'Kohl?s','3100 E Eisenhower Pky # 100, Ann Arbor, MI','http://www.kohlscorporation.com',300,28);
+Insert into CUSTOMERS_src (CUSTOMER_ID,NAME,ADDRESS,WEBSITE,CREDIT_LIMIT,LOCATION_ID) values (29,'Starbucks','952 Vassar Dr, Kalamazoo, MI','http://www.starbucks.com',400,29);
+Insert into CUSTOMERS_src (CUSTOMER_ID,NAME,ADDRESS,WEBSITE,CREDIT_LIMIT,LOCATION_ID) values (30,'Paccar','150 W Jefferson Ave # 2500, Detroit, MI','http://www.paccar.com',400,30);
+Insert into CUSTOMERS_src (CUSTOMER_ID,NAME,ADDRESS,WEBSITE,CREDIT_LIMIT,LOCATION_ID) values (31,'Cummins','40 Pearl St Nw # 1020, Grand Rapids, MI','http://www.cummins.com',400,31);
+Insert into CUSTOMERS_src (CUSTOMER_ID,NAME,ADDRESS,WEBSITE,CREDIT_LIMIT,LOCATION_ID) values (32,'Global Partners','1135 Catherine St, Ann Arbor, MI','http://www.globalp.com',400,32);
+Insert into CUSTOMERS_src (CUSTOMER_ID,NAME,ADDRESS,WEBSITE,CREDIT_LIMIT,LOCATION_ID) values (33,'Altria Group','301 E Genesee Ave, Saginaw, MI','http://www.altria.com',400,33);
+Insert into CUSTOMERS_src (CUSTOMER_ID,NAME,ADDRESS,WEBSITE,CREDIT_LIMIT,LOCATION_ID) values (34,'Xerox','9936 Dexter Ave, Detroit, MI','http://www.xerox.com',400,34);
+Insert into CUSTOMERS_src (CUSTOMER_ID,NAME,ADDRESS,WEBSITE,CREDIT_LIMIT,LOCATION_ID) values (35,'Kimberly-Clark','1660 University Ter, Ann Arbor, MI','http://www.kimberly-clark.com',400,35);
+Insert into CUSTOMERS_src (CUSTOMER_ID,NAME,ADDRESS,WEBSITE,CREDIT_LIMIT,LOCATION_ID) values (36,'Hartford Financial Services Group','15713 N East St, Lansing, MI','http://www.thehartford.com',400,36);
+Insert into CUSTOMERS_src (CUSTOMER_ID,NAME,ADDRESS,WEBSITE,CREDIT_LIMIT,LOCATION_ID) values (37,'Huntsman','555 John F Kennedy Rd, Dubuque, IA','http://www.huntsman.com',500,37);
+Insert into CUSTOMERS_src (CUSTOMER_ID,NAME,ADDRESS,WEBSITE,CREDIT_LIMIT,LOCATION_ID) values (38,'Kraft Heinz','10315 Hickman Rd, Des Moines, IA','http://www.kraftheinzcompany.com',500,38);
+Insert into CUSTOMERS_src (CUSTOMER_ID,NAME,ADDRESS,WEBSITE,CREDIT_LIMIT,LOCATION_ID) values (39,'Lear','2115 N Towne Ln Ne, Cedar Rapids, IA','http://www.lear.com',500,39);
+Insert into CUSTOMERS_src (CUSTOMER_ID,NAME,ADDRESS,WEBSITE,CREDIT_LIMIT,LOCATION_ID) values (40,'Fluor','1928 Sherwood Dr, Council Bluffs, IA','http://www.fluor.com',500,40);
+Insert into CUSTOMERS_src (CUSTOMER_ID,NAME,ADDRESS,WEBSITE,CREDIT_LIMIT,LOCATION_ID) values (41,'AECOM','2102 E Kimberly Rd, Davenport, IA','http://www.aecom.com',500,41);
+Insert into CUSTOMERS_src (CUSTOMER_ID,NAME,ADDRESS,WEBSITE,CREDIT_LIMIT,LOCATION_ID) values (42,'Becton Dickinson','1691 Asbury Rd, Dubuque, IA','http://www.bd.com',500,42);
+Insert into CUSTOMERS_src (CUSTOMER_ID,NAME,ADDRESS,WEBSITE,CREDIT_LIMIT,LOCATION_ID) values (43,'Facebook','5112 Sw 9Th St, Des Moines, IA','http://www.facebook.com',500,43);
+Insert into CUSTOMERS_src (CUSTOMER_ID,NAME,ADDRESS,WEBSITE,CREDIT_LIMIT,LOCATION_ID) values (44,'Jabil Circuit','221 3Rd Ave Se # 300, Cedar Rapids, IA','http://www.jabil.com',500,44);
+Insert into CUSTOMERS_src (CUSTOMER_ID,NAME,ADDRESS,WEBSITE,CREDIT_LIMIT,LOCATION_ID) values (45,'CenturyLink','2120 Heights Dr, Eau Claire, WI','http://www.centurylink.com',500,45);
+Insert into CUSTOMERS_src (CUSTOMER_ID,NAME,ADDRESS,WEBSITE,CREDIT_LIMIT,LOCATION_ID) values (46,'Supervalu','8989 N Port Washington Rd, Milwaukee, WI','http://www.supervalu.com',500,46);
+Insert into CUSTOMERS_src (CUSTOMER_ID,NAME,ADDRESS,WEBSITE,CREDIT_LIMIT,LOCATION_ID) values (47,'General Mills','6555 W Good Hope Rd, Milwaukee, WI','http://www.generalmills.com',600,47);
+Insert into CUSTOMERS_src (CUSTOMER_ID,NAME,ADDRESS,WEBSITE,CREDIT_LIMIT,LOCATION_ID) values (48,'Southern','1314 N Stoughton Rd, Madison, WI','http://www.southerncompany.com',600,48);
+Insert into CUSTOMERS_src (CUSTOMER_ID,NAME,ADDRESS,WEBSITE,CREDIT_LIMIT,LOCATION_ID) values (49,'NextEra Energy','4715 Sprecher Rd, Madison, WI','http://www.nexteraenergy.com',600,49);
+Insert into CUSTOMERS_src (CUSTOMER_ID,NAME,ADDRESS,WEBSITE,CREDIT_LIMIT,LOCATION_ID) values (50,'Thermo Fisher Scientific','6161 N 64Th St, Milwaukee, WI','http://www.thermofisher.com',700,50);
+
+
+COMMIT;
+
+
+
+  CREATE TABLE LOCATIONS_SRC
+   (	"LOCATION_ID" NUMBER, 
+	"ADDRESS" VARCHAR2(255 BYTE) NOT NULL ENABLE, 
+	"POSTAL_CODE" VARCHAR2(20 BYTE), 
+	"CITY" VARCHAR2(50 BYTE), 
+	"STATE" VARCHAR2(50 BYTE), 
+	"COUNTRY_ID" CHAR(2 BYTE), 
+	CUST_ID NUMBER
+    );
+
+
+
+
+Insert into LOCATIONS_SRC (LOCATION_ID,ADDRESS,POSTAL_CODE,CITY,STATE,COUNTRY_ID,CUST_ID) values (1,'1297 Via Cola di Rie','00989','Roma',null,'IT',1);
+Insert into LOCATIONS_SRC (LOCATION_ID,ADDRESS,POSTAL_CODE,CITY,STATE,COUNTRY_ID,CUST_ID) values (2,'93091 Calle della Testa','10934','Venice',null,'IT',2);
+Insert into LOCATIONS_SRC (LOCATION_ID,ADDRESS,POSTAL_CODE,CITY,STATE,COUNTRY_ID,CUST_ID) values (3,'2017 Shinjuku-ku','1689','Tokyo','Tokyo Prefecture','JP',3);
+Insert into LOCATIONS_SRC (LOCATION_ID,ADDRESS,POSTAL_CODE,CITY,STATE,COUNTRY_ID,CUST_ID) values (4,'9450 Kamiya-cho','6823','Hiroshima',null,'JP',4);
+Insert into LOCATIONS_SRC (LOCATION_ID,ADDRESS,POSTAL_CODE,CITY,STATE,COUNTRY_ID,CUST_ID) values (5,'2014 Jabberwocky Rd','26192','Southlake','Texas','US',5);
+Insert into LOCATIONS_SRC (LOCATION_ID,ADDRESS,POSTAL_CODE,CITY,STATE,COUNTRY_ID,CUST_ID) values (6,'2011 Interiors Blvd','99236','South San Francisco','California','US',6);
+Insert into LOCATIONS_SRC (LOCATION_ID,ADDRESS,POSTAL_CODE,CITY,STATE,COUNTRY_ID,CUST_ID) values (7,'2007 Zagora St','50090','South Brunswick','New Jersey','US',7);
+Insert into LOCATIONS_SRC (LOCATION_ID,ADDRESS,POSTAL_CODE,CITY,STATE,COUNTRY_ID,CUST_ID) values (8,'2004 Charade Rd','98199','Seattle','Washington','US',8);
+Insert into LOCATIONS_SRC (LOCATION_ID,ADDRESS,POSTAL_CODE,CITY,STATE,COUNTRY_ID,CUST_ID) values (9,'147 Spadina Ave','M5V 2L7','Toronto','Ontario','CA',9);
+Insert into LOCATIONS_SRC (LOCATION_ID,ADDRESS,POSTAL_CODE,CITY,STATE,COUNTRY_ID,CUST_ID) values (10,'6092 Boxwood St','YSW 9T2','Whitehorse','Yukon','CA',10);
+Insert into LOCATIONS_SRC (LOCATION_ID,ADDRESS,POSTAL_CODE,CITY,STATE,COUNTRY_ID,CUST_ID) values (11,'40-5-12 Laogianggen','190518','Beijing',null,'CN',11);
+Insert into LOCATIONS_SRC (LOCATION_ID,ADDRESS,POSTAL_CODE,CITY,STATE,COUNTRY_ID,CUST_ID) values (12,'1298 Vileparle (E)','490231','Bombay','Maharashtra','IN',12);
+Insert into LOCATIONS_SRC (LOCATION_ID,ADDRESS,POSTAL_CODE,CITY,STATE,COUNTRY_ID,CUST_ID) values (13,'12-98 Victoria Street','2901','Sydney','New South Wales','AU',13);
+Insert into LOCATIONS_SRC (LOCATION_ID,ADDRESS,POSTAL_CODE,CITY,STATE,COUNTRY_ID,CUST_ID) values (14,'198 Clementi North','540198','Singapore',null,'SG',14);
+Insert into LOCATIONS_SRC (LOCATION_ID,ADDRESS,POSTAL_CODE,CITY,STATE,COUNTRY_ID,CUST_ID) values (15,'8204 Arthur St',null,'London',null,'UK',15);
+Insert into LOCATIONS_SRC (LOCATION_ID,ADDRESS,POSTAL_CODE,CITY,STATE,COUNTRY_ID,CUST_ID) values (16,'Magdalen Centre, The Oxford Science Park','OX9 9ZB','Oxford','Oxford','UK',16);
+Insert into LOCATIONS_SRC (LOCATION_ID,ADDRESS,POSTAL_CODE,CITY,STATE,COUNTRY_ID,CUST_ID) values (17,'9702 Chester Road','09629850293','Stretford','Manchester','UK',17);
+Insert into LOCATIONS_SRC (LOCATION_ID,ADDRESS,POSTAL_CODE,CITY,STATE,COUNTRY_ID,CUST_ID) values (18,'Schwanthalerstr. 7031','80925','Munich','Bavaria','DE',18);
+Insert into LOCATIONS_SRC (LOCATION_ID,ADDRESS,POSTAL_CODE,CITY,STATE,COUNTRY_ID,CUST_ID) values (19,'Rua Frei Caneca 1360 ','01307-002','Sao Paulo','Sao Paulo','BR',19);
+Insert into LOCATIONS_SRC (LOCATION_ID,ADDRESS,POSTAL_CODE,CITY,STATE,COUNTRY_ID,CUST_ID) values (20,'20 Rue des Corps-Saints','1730','Geneva','Geneve','CH',20);
+Insert into LOCATIONS_SRC (LOCATION_ID,ADDRESS,POSTAL_CODE,CITY,STATE,COUNTRY_ID,CUST_ID) values (21,'Murtenstrasse 921','3095','Bern','BE','CH',21);
+Insert into LOCATIONS_SRC (LOCATION_ID,ADDRESS,POSTAL_CODE,CITY,STATE,COUNTRY_ID,CUST_ID) values (22,'Pieter Breughelstraat 837','3029SK','Utrecht','Utrecht','NL',22);
+Insert into LOCATIONS_SRC (LOCATION_ID,ADDRESS,POSTAL_CODE,CITY,STATE,COUNTRY_ID,CUST_ID) values (23,'Mariano Escobedo 9991','11932','Mexico City','Distrito Federal,','MX',23);
+
+
+COMMIT;
+
+
+  CREATE TABLE CUST_LOC_TGT
+   (	"CUSTOMER_ID" NUMBER, 
+	"NAME" NVARCHAR2(255), 
+	"ADDRESS" NVARCHAR2(255), 
+	"WEBSITE" NVARCHAR2(255), 
+	"CREDIT_LIMIT" NUMBER(8,2), 
+	"LOCATION_ID" NUMBER, 
+	"POSTAL_CODE" VARCHAR2(20 BYTE), 
+	"CITY" NVARCHAR2(50)
+   );
